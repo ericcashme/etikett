@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BannerLP /> Expect to render BannerLP with snapshot 1`] = `
+<BannerLPComponent
+  content={
+    Object {
+      "content_text": "<p><br />
+      - Conheça os produtos mais vendidos da Printi</p>
+      <p>- Aproveite os acabamentos especiais de cada produto</p>
+      <p>- Divulgue sua marca com produtos personalizados</p>
+      <p>- Faça online de forma prática e rápida</p>
+      <p></p>",
+      "content_title": "Mais Vendidos",
+      "path": Object {
+        "desktop": "2018-04/1524162808_1122x350px-banner-landing.jpg",
+        "mobile": "2018-04/1524162808_1122x350px-banner-landing.jpg",
+      },
+      "seo": Object {
+        "alt": "Confira os materiais mais vendidos na melhor gráfica online do Brasil 2",
+        "title": "Confira os materiais mais vendidos na melhor gráfica online do Brasil 2",
+      },
+    }
+  }
+  showTitle={true}
+/>
+`;

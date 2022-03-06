@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> Expect to render Checkbox with default snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.25rem;
+  border: 1px solid #8C9093;
+  background-color: #ffffff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0.125rem;
+  border-color: #007CCC;
+  background-color: #007CCC;
+}
+
+.c3 {
+  display: block;
+  position: absolute;
+  left: 0.3125rem;
+  top: 0.0625rem;
+  width: 0.3125rem;
+  height: 0.625rem;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 1;
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+<body>
+    <div>
+      <label
+        class="c0"
+        for="checkbox"
+        kind="square"
+      >
+        <input
+          checked=""
+          class="c1"
+          id="checkbox"
+          name="checkbox"
+          type="checkbox"
+          value="checkbox"
+        />
+        <span
+          class="c2"
+          kind="square"
+        >
+          <i
+            class="c3"
+            kind="square"
+          />
+        </span>
+        
+      </label>
+    </div>
+  </body>,
+  "container": <div>
+    <label
+      class="Checkboxstyles__CheckboxStyle-plj925-0 jySHSR"
+      for="checkbox"
+      kind="square"
+    >
+      <input
+        checked=""
+        class="Checkboxstyles__HiddenInput-plj925-1 jMtezP"
+        id="checkbox"
+        name="checkbox"
+        type="checkbox"
+        value="checkbox"
+      />
+      <span
+        class="Checkboxstyles__Shape-plj925-2 krBcNB"
+        kind="square"
+      >
+        <i
+          class="Checkboxstyles__InnerShape-plj925-3 eThaRx"
+          kind="square"
+        />
+      </span>
+      
+    </label>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> Expect to render Checkbox with snapshot and optional props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.25rem;
+  border: 1px solid #8C9093;
+  background-color: #ffffff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 1.625rem;
+  width: 1.625rem;
+  border-radius: 50%;
+  border-color: #007CCC;
+  background-color: #007CCC;
+}
+
+.c3 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+
+.c4 {
+  margin-bottom: 0;
+  font-family: undefined;
+  font-size: 1rem;
+  font-weight: bold;
+  -webkit-letter-spacing: -0.03125rem;
+  -moz-letter-spacing: -0.03125rem;
+  -ms-letter-spacing: -0.03125rem;
+  letter-spacing: -0.03125rem;
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+<div>
+      <label
+        class="c0"
+        for="checkbox"
+        kind="circle"
+      >
+        <input
+          checked=""
+          class="c1"
+          id="checkbox"
+          name="checkbox"
+          readonly=""
+          type="checkbox"
+          value="checkbox"
+        />
+        <span
+          class="c2"
+          kind="circle"
+        >
+          <i
+            class="c3"
+            kind="circle"
+          />
+        </span>
+        <p
+          class="c4"
+          kind="circle"
+        >
+          Label
+        </p>
+      </label>
+    </div>
+  </body>,
+  "container": <div>
+    <label
+      class="Checkboxstyles__CheckboxStyle-plj925-0 jySHSR"
+      for="checkbox"
+      kind="circle"
+    >
+      <input
+        checked=""
+        class="Checkboxstyles__HiddenInput-plj925-1 jMtezP"
+        id="checkbox"
+        name="checkbox"
+        readonly=""
+        type="checkbox"
+        value="checkbox"
+      />
+      <span
+        class="Checkboxstyles__Shape-plj925-2 iPEHrr"
+        kind="circle"
+      >
+        <i
+          class="Checkboxstyles__InnerShape-plj925-3 ddmuBN"
+          kind="circle"
+        />
+      </span>
+      <p
+        class="Checkboxstyles__Label-plj925-4 kGHTHO"
+        kind="circle"
+      >
+        Label
+      </p>
+    </label>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

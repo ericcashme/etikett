@@ -1,0 +1,37 @@
+{
+  "fullPath": {
+    "mobile": "mobile_path",
+    "tablet": "tablet_path",
+    "desktop": "desktop_path"
+  },
+
+  "onlyMobilePathV1": {
+    "mobile": "mobile_path",
+    "tablet": "",
+    "desktop": ""
+  },
+
+  "onlyTabletPathV1": {
+    "mobile": "",
+    "tablet": "tablet_path",
+    "desktop": ""
+  },
+
+  "onlyDesktopPathV1": {
+    "mobile": "",
+    "tablet": "",
+    "desktop": "desktop_path"
+  },
+
+  "onlyMobilePathV2": {
+    "mobile": "mobile_path"
+  },
+
+  "onlyTabletPathV2": {
+    "tablet": "tablet_path"
+  },
+
+  "onlyDesktopPathV2": {
+    "desktop": "desktop_path"
+  }
+}
