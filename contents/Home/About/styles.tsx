@@ -3,8 +3,12 @@ import { theme, Button as CButton } from 'components'
 const { color, borders, space, breakpoint } = theme
 
 export const About = styled.div`
-  padding: ${space.xl5} 0;
+  padding: 0 0 ${space.xl4};
   background-color: ${color.grayscale.lighter};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding: ${space.xl5} 0;
+  }
 `
 
 export const BorderImage = styled.div`

@@ -1,11 +1,15 @@
 import Slider from 'react-slick'
 import styled from 'styled-components'
 import { theme } from 'components'
-const { color, borders, space } = theme
+const { color, borders, breakpoint, space } = theme
 
 export const References = styled.div`
-  padding: ${space.xl5} 0;
+  padding: ${space.xl3} 0;
   background-color: ${color.grayscale.white};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding: ${space.xl5} 0;
+  }
 `
 
 export const Slide = styled(Slider)`

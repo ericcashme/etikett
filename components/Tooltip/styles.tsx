@@ -21,7 +21,7 @@ export const Tooltip = styled.span<TooltipStyleProps>`
     visibility: ${(p) => (p.active ? 'visible' : 'hidden')};
     opacity: ${(p) => (p.active ? '1' : '0')};
     padding: ${space.sm};
-    border-radius: ${borders.radius.md};
+    border-radius: ${borders.radius.lg};
     background-color: ${color.grayscale.black};
     color: ${color.grayscale.white};
     font-size: ${font.size.xsmall};

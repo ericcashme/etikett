@@ -75,7 +75,7 @@ export const Calculator: FC = memo(() => {
                 <Text size="xlg" color="primary-light" family="heading" weight="bold" align="right" margin="0">
                   {format.money(result.total)}
                 </Text>
-                <Text size="sm" color="inverse" align="right" margin="0" italic>
+                <Text size="sm" color="weak" align="right" margin="0" italic>
                   zzgl. 19% MwSt.
                 </Text>
               </S.TopCalculatorPrice>

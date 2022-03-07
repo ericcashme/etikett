@@ -54,7 +54,7 @@ export const TopCalculatorGradient = styled.div`
   top: 0;
   right: 0;
   bottom: 0;
-  width: 100px;
+  width: ${space.xl2};
   height: 100%;
   background: rgb(0, 38, 62);
   background: linear-gradient(90deg, rgba(0, 38, 62, 0) 0%, rgba(0, 38, 62, 0.55) 60%, rgba(0, 38, 62, 1) 100%);
@@ -165,7 +165,7 @@ export const StepNumber = styled.span<StepStylesProps>`
 `
 
 export const Body = styled.div`
-  padding: ${space.md} ${space.sm} ${space.xl3};
+  padding: ${space.md} ${space.xs} ${space.xl3};
   min-height: ${space.xl4};
 
   @media (min-width: ${breakpoint.lg}) {
@@ -175,8 +175,8 @@ export const Body = styled.div`
 
 export const Block = styled.div`
   padding-top: ${space.xl};
-  padding-left: ${space.sm};
-  padding-right: ${space.sm};
+  padding-left: ${space.xs};
+  padding-right: ${space.xs};
 
   &:not(:last-of-type) {
     padding-bottom: ${space.xl3};

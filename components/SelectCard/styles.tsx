@@ -18,7 +18,11 @@ export const IconWrapper = styled.span`
   align-items: center;
   width: 1.7rem;
   height: 1.7rem;
-  margin-right: ${space.md};
+  margin-right: ${space.xs};
+
+  @media (min-width: ${breakpoint.lg}) {
+    margin-right: ${space.md};
+  }
 `
 
 export const Infos = styled.span`
@@ -69,7 +73,7 @@ export const SelectCard = styled.label<types.SelectCardStyleProps>`
   justify-content: flex-start;
   align-items: center;
   align-self: stretch;
-  width: 10rem;
+  width: 9rem;
   height: auto;
   min-height: 4rem;
   border-radius: ${borders.radius.lg};

@@ -1,11 +1,15 @@
 import Slider from 'react-slick'
 import styled from 'styled-components'
 import { theme, Box, Avatar, RatingStar } from 'components'
-const { color, borders, space } = theme
+const { color, borders, breakpoint, space } = theme
 
 export const Advantages = styled.div`
-  padding-bottom: ${space.xl5};
+  padding-bottom: ${space.xl4};
   background-color: ${color.grayscale.lighter};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding-bottom: ${space.xl5};
+  }
 `
 
 export const SlideWrapper = styled(Box)`

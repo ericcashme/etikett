@@ -4,7 +4,7 @@ import space from '../theme/space'
 
 export const HorizontalScroll = styled.div`
   position: relative;
-  margin: 0 -${space.sm};
+  margin: 0 -${space.lg};
 
   @media (min-width: ${breakpoint.xl}) {
     & > div:last-of-type {

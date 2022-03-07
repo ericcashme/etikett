@@ -3,8 +3,12 @@ import { theme, Link } from 'components'
 const { breakpoint, borders, color, space, font } = theme
 
 export const Infos = styled.div`
-  padding: ${space.xl6} 0;
+  padding: ${space.xl3} 0;
   background-color: ${color.grayscale.white};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding: ${space.xl6} 0;
+  }
 `
 
 export const InfoCard = styled.div`
@@ -32,9 +36,13 @@ export const InfoCardBottom = styled.div`
 `
 
 export const TopFooter = styled.div`
-  padding: ${space.xl4} 0;
+  padding: ${space.xl3} 0 ${space.lg};
   border-bottom: ${borders.sizes.sm} solid ${color.grayscale.lighter};
   background-color: ${color.grayscale.light};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding: ${space.xl4} 0;
+  }
 `
 
 export const TopFooterItem = styled.div`
@@ -62,8 +70,8 @@ export const FooterLinks = styled.div`
 `
 
 export const FooterInfos = styled.div`
-  padding: ${space.xl4} 0 ${space.xl2};
-  border-bottom: ${borders.sizes.sm} solid ${color.grayscale.lighter};
+  padding: ${space.xl3} 0 ${space.md};
+  border-bottom: ${borders.sizes.sm} solid ${color.grayscale.light};
   background-color: ${color.grayscale.white};
 
   @media (min-width: ${breakpoint.lg}) {
@@ -72,7 +80,7 @@ export const FooterInfos = styled.div`
 `
 
 export const FooterInfosItem = styled.div`
-  margin-bottom: ${space.xl2};
+  margin-bottom: ${space.lg};
 
   @media (min-width: ${breakpoint.lg}) {
     margin-bottom: 0;
@@ -119,8 +127,12 @@ export const WrapImage = styled.div<{ width: string }>`
 `
 
 export const BottomFooter = styled.div`
-  padding: ${space.xl4} 0;
+  padding: ${space.xl2} 0 ${space.lg};
   background-color: ${color.grayscale.white};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding: ${space.xl4} 0;
+  }
 `
 
 export const LogoFooter = styled.a`

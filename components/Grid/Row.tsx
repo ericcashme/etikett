@@ -14,6 +14,8 @@ const Row = styled.div<RowProps>`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: ${(p) => (p.isFull ? '0' : space.sm)};
+  padding-left: ${(p) => (p.isFull ? '0' : space.sm)};
 
   ${(p) =>
     cssMedia(

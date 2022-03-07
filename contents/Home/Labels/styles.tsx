@@ -3,8 +3,12 @@ import { theme } from 'components'
 const { color, space, borders, breakpoint } = theme
 
 export const Labels = styled.div`
-  padding-bottom: 14rem;
+  padding-bottom: 9rem;
   background-color: ${color.grayscale.white};
+
+  @media (min-width: ${breakpoint.lg}) {
+    padding-bottom: 14rem;
+  }
 `
 export const ArrowButtons = styled.div`
   position: relative;

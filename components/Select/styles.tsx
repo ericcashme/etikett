@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import borders from '../theme/borders'
 import color from '../theme/color'
 import font from '../theme/font'
@@ -23,18 +23,18 @@ export const Container = styled.span<ContainerStyleProps>`
 
   ${(p) =>
     p.isBlock &&
-    `
-    display: block;
-    width: 100%;
-  `}
+    css`
+      display: block;
+      width: 100%;
+    `}
 
   ${(p) =>
     p.isInline &&
-    `
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  `}
+    css`
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    `}
 `
 
 export const Group = styled.span<GroupStyleProps>`
