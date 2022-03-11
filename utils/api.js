@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'
 
 const config = {
   withCredentials: true,
@@ -6,24 +6,18 @@ const config = {
   responseType: 'json',
   headers: {
     'Content-Type': 'application/json',
-    'Application-Source': 'react',
+    'Application-Source': 'react'
   },
-  exposedHeaders: ['set-cookie'],
-};
-
-if (process.env.NODE_ENV === 'production') {
-  config.baseURL = process.env.API_URL;
+  exposedHeaders: ['set-cookie']
 }
 
-const instance = axios.create(config);
+if (process.env.NODE_ENV === 'production') {
+  config.baseURL = process.env.API_URL
+}
 
-instance.CancelToken = axios.CancelToken;
-instance.isCancel = axios.isCancel;
+const instance = axios.create(config)
 
-config.baseURL = process.env.API_BOLT_URL;
-const customInstance = axios.create(config);
+instance.CancelToken = axios.CancelToken
+instance.isCancel = axios.isCancel
 
-customInstance.CancelToken = axios.CancelToken;
-customInstance.isCancel = axios.isCancel;
-
-export { instance, customInstance };
+export { instance }

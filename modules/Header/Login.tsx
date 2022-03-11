@@ -1,5 +1,6 @@
 import React, { memo, useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
+import { api } from 'utils'
 import { NewIcon } from 'components'
 import { useLocalStorage } from 'hooks/useLocalStorage'
 import * as S from './styles'
@@ -12,15 +13,15 @@ const Login = () => {
 
   const fetchUser = useCallback(async () => {
     setIsLogged(true)
-    // await api
-    //   .get('/v2/customer/validate-auth')
-    //   .then(() => {
-    //     setIsLogged(true)
-    //   })
-    //   .catch(() => {
-    //     localStorage.removeItem('user')
-    //     setIsLogged(false)
-    //   })
+    await api
+      .get('/v1/login/validate-auth')
+      .then(() => {
+        setIsLogged(true)
+      })
+      .catch(() => {
+        localStorage.removeItem('user')
+        setIsLogged(false)
+      })
   }, [])
 
   useEffect(() => {

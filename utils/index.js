@@ -1,5 +1,5 @@
 export { default as analytics } from './analytics'
-export { instance as api, customInstance as customApi } from './api'
+export { instance as api } from './api'
 export { staticApi, customStaticApi } from './staticApi'
 export { default as browserDetection } from './browserDetection'
 export { default as useDebounce } from './useDebounce'
